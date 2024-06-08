@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .containerLogin {
+    display: flex;
+    height: calc(100vh - 40px);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .leftLogin, .rightLogin {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .leftLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftLogin img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rightLogin {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .contentLogin {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contentLogin h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contentLogin img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .name, .passwordDiv {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .buttonsLogin {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #loginButton {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  #cancelButton {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  #SignupSpan {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  #signupButton {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #signupButton:hover {
+    text-decoration: underline;
+  }
+  

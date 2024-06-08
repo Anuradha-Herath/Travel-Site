@@ -1,0 +1,42 @@
+CREATE DATABASE Sample;
+
+CREATE TABLE Users(
+    Uid INTEGER AUTO_INCREMENT PRIMARY KEY,
+    Fname VARCHAR(50),
+    Lname VARCHAR(50),
+    Age INTEGER,
+    Gender VARCHAR(10),
+    Email VARCHAR(100),
+    ContactNo VARCHAR(10),
+    Username VARCHAR(30),
+    Password VARCHAR(30)
+);
+
+
+CREATE TABLE bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    destination VARCHAR(255) NOT NULL,
+    departure_date DATE NOT NULL,
+    return_date DATE NOT NULL,
+    adults INT NOT NULL,
+    children INT,
+    transportation VARCHAR(50) NOT NULL,
+    accommodation VARCHAR(50) NOT NULL,
+    meal_preferences VARCHAR(255),
+    activities TEXT,
+    special_requests TEXT,
+    payment_method VARCHAR(50) NOT NULL,
+    billing_address VARCHAR(255) NOT NULL,
+    card_details VARCHAR(255) NOT NULL,
+    travel_insurance VARCHAR(255),
+    passport_number VARCHAR(50),
+    passport_expiry DATE,
+    nationality VARCHAR(50),
+    emergency_contact_name VARCHAR(255) NOT NULL,
+    emergency_contact_phone VARCHAR(15) NOT NULL
+);

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], input[type="date"], input[type="password"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .fullname, .collection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .firstnameDiv, .lastnameDiv, .ageDiv, .genderDiv {
+    width: 48%;
+  }
+  
+  .submitSignupDiv, button[type="submit"] {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  

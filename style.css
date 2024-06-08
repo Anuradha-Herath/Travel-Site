@@ -1,0 +1,165 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+/* Header Styles */
+
+.navbar {
+    background-color: #333; /* Change background color to gray */
+    overflow: hidden;
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    display: inline-block; /* Changed from float: left; */
+    vertical-align: middle;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+/* Booking Section Styles */
+
+.booking {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+.heading-title {
+    color: #333;
+}
+
+.book_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBox {
+    text-align: left;
+    width: 300px;
+    margin-bottom: 20px; /* Adjust margin bottom */
+}
+.inputBox span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+/* Footer Styles */
+
+.footer {
+    background-color: #333; /* Dark colored background */
+    color: white;
+    padding: 30px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section.left-section {
+    flex: 0 0 25%; /* Adjust section width */
+}
+
+.footer-section.left-section img {
+    width: 70%; /* Adjust logo size as needed */
+    height: auto;
+}
+
+.footer-section.center-section {
+    flex: 0 0 40%; /* Adjust section width */
+}
+
+.footer-section.center-section h4 {
+    margin-bottom: 10px;
+}
+/* Copyright Styles */
+a{
+    text-decoration: none;
+    color: #e0e0e0;
+    
+}
+a:hover {
+    color: #3dee57; 
+}
+.copyright {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .inputBox {
+        width: 100%;
+    }
+}
+.submit-button {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
