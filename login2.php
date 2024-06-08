@@ -45,7 +45,7 @@ if(isset($_POST["login_btn"])){
         </div>
         <div class="right">
         <li><a href="Index.php" >Home</a></li>
-          <li><a href="login.php">Login</a></li>
+          <li><a href="login2.php">Login</a></li>
           <li><a href="signup.php">Sign up</a></li>
         </div>
       </ul>
